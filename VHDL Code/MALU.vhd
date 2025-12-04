@@ -27,7 +27,7 @@ entity MALU is
 	port(
 		rs1 : in STD_LOGIC_VECTOR(127 downto 0);				-- 128-bit vector (input)
 		rs2 : in STD_LOGIC_VECTOR(127 downto 0); 				-- 128-bit vector (input)
-		rs3 : in STD_LOGIC_VECTOR(127 downto 0);				-- 128-bit vector (input)	
+		rs3 : in STD_LOGIC_VECTOR(127 downto 0);				-- 128-bit vector (input)
 		instruction_format : in STD_LOGIC_VECTOR(24 downto 0); 	-- 25-bit vector (input)
 		rd : out STD_LOGIC_VECTOR(127 downto 0) 				-- 128-bit vector (output)
 	);
