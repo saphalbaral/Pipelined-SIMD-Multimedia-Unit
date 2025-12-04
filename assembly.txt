@@ -1,0 +1,5 @@
+li r1, 0, 10 
+li r2, 0, 3 
+au r3, r1, r2 
+simal r4, r3, r1, r2
+and r3, r5, r4
