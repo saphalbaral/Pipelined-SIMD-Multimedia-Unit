@@ -10,12 +10,12 @@ Key features:
 - Fully tested using VHDL testbenches and waveform verification
 
 # Part 2
-The second part of the project focused on building the remaining stages of the pipeline: Instruction Fetch, Instruction Decode, and Write Back as well as getting data forwarding to work.
+The second part of the project focused on building the remaining stages of the pipeline: Instruction Fetch, Instruction Decode, and Write-Back, as well as implementing data forwarding.
 Key features:
 - Register File with 3 read ports and 1 write port.
 - Instruction decoding for all formats (LI, R3, R4).
 - Correct handling of immediate loads using load index.
 - Data forwarding to avoid stalls on read-after-write hazards.
 - Pipeline registers (IF/ID, ID/EX, EX/WB) carrying control and operand data.
-- Custom assembler and VHDL testbench were used for loading programs and verifying execution.
+- Custom assembler and VHDL testbench used to load and verify programs.
 <img width="864" height="366" alt="image" src="https://github.com/user-attachments/assets/4e267401-bd45-4da1-8527-1c01b769b0a3" />
