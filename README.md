@@ -7,7 +7,7 @@ Key features:
 - Supports three instruction formats: LI, R3, and R4.
 - Implements saturated arithmetic, logical operations, and SIMD multiply-add/subtract instructions.
 - Uses 128-bit registers for multimedia operations.
-- Fully tested using VHDL testbenches and waveform verification
+- Fully tested using VHDL testbenches and waveform verification.
 
 # Part 2
 The second part of the project focused on building the remaining stages of the pipeline: Instruction Fetch, Instruction Decode, and Write-Back, as well as implementing data forwarding.
